@@ -1,0 +1,120 @@
+html, body{
+    
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/twpexels-photo-2179483.jpg);
+	background-color: rgba(250, 161, 245, 0.822);
+	background-blend-mode: multiply;
+    background-size:cover ;
+	text-align: center;
+}
+
+.container {
+	max-width: 630px;
+	position: relative;
+	bottom: 10%;
+	left : 25%;
+	background: rgba(246, 247, 247, 0.288);
+	border-radius: 8px;
+	padding: 5px;
+}
+.comment {
+	display: block;
+	transition: all 1s;
+}
+.commentClicked {
+	min-height: 0px;
+	border: 5px solid rgb(33, 113, 241);
+	border-radius: 5px;
+	padding: 5px 10px
+}
+.container textarea {
+	color: rgb(0, 0, 0);
+	width: 100%;
+	background: #baf8db;
+	height: 50%;
+	
+	border-radius: 5px 5px 0px 0px;
+	border : 2px solid #26fc5c;
+	transition: all 0.5s;
+	margin-top: 15px;
+}
+button.primaryContained {
+	background: #3372f8;
+	color: rgb(253, 253, 255);
+	padding: 10px 10px;
+	border-width: 5px;
+	border:#90def1 ;
+	border-radius: 5px;
+	margin-top: 0px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	transition: 1s all;
+	font-size: 10px;
+	border-radius: 5px;
+}
+li
+{
+	display: inline-block;
+
+}
+
+.thead{
+text-align: center;
+}
+.ebody{
+	color: antiquewhite;
+	text-shadow: rgba(165, 42, 42, 0.733);
+	text-shadow: 15px;
+	text-shadow: 10% ;
+	font-size: xx-large;
+	width: 90%;
+	text-align: center;
+	padding-left: 5% ;
+	padding-right: 5% ;
+
+}
+.button{
+	word-spacing: 10px;
+  background-color: rgb(191, 84, 253);
+  border-radius: 25px;
+  border-width: 5px;
+  border-color: rgb(241, 241, 241);
+  height: 70px ;
+  width: 120px;
+  text-align: center;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  cursor: pointer;  
+  
+  }
+  .button:hover {
+    background-color: rgb(250, 154, 221);
+color: rgb(37, 37, 37);
+font-size: large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+  .border
+  {
+	  border: #baf8db;
+	  border-width: 5px;
+  }
+  .best{
+	  color: #faf5f9;
+  }
+ #click{
+	 color: aliceblue;
+	 font-family: sans-serif;
+	 padding-top: 2%;
+	 margin-bottom: 0%;
+	 padding-bottom: 0%;
+ }
+ .nav0{
+	 position: relative;
+    bottom:0%;
+   right: 3%;
+}

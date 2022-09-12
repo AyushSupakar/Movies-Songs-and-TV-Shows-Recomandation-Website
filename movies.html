@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rec4U</title>
+    <Meta name="Description" content="Wonderful Recomendations of the best movies, shows, games and music to eliminate your boredom!"></Meta>
+    <link rel="stylesheet" href="tstyles.css">
+</head>
+<body>
+    <header class="thead">
+      <div class="best">
+
+        <h3>Best Movies, tv shows and songs recomendations for you!</h3>
+           <br>
+           <a href="index.html"><button class="button" id="hbutton">Home</button></a>
+           <a href="tvshows.html"><button class="button" id="mbutton">TV Shows</button></a>
+           <a href="songs.html"><button class="button" id="sbutton">Songs</button></a>
+      </div>
+   
+
+    </header>
+
+    <section>
+
+
+      <div id="click">"Click The Pictures to Explore!"</div>
+
+<div class="ebody">
+<h1>MOVIES</h1>
+<div class="border" >
+
+  <ul>
+
+  <li> <a href="https://www.imdb.com/title/tt1375666/?ref_=nv_sr_srsg_0" target="_blank" > <img src="images/inception-movie-inception-poster-wallpaper-preview.jpg" width=320 height=200
+    alt="Couldnt load image"> </a> </li>
+    <li> <a href="https://www.imdb.com/title/tt0468569/" target="_blank" > <img src="images/darkknightYvhR3J.jpg" width=320 height=200
+      alt="Couldnt load image"> </a> </li>
+      <li> <a href="https://www.imdb.com/title/tt4154796/?" target="_blank" > <img src="images/finalendgame246d039aed77aa783d9722fda77996df.jpg" width=320 height=200
+        alt="Couldnt load image"> </a> </li>
+        <li> <a href="https://www.imdb.com/title/tt1457767/?ref_=fn_al_tt_3" target="_blank" > <img src="images/Conjuring-Download,-Hd-Wallpapers-and-backgrounds-Download-.jpg" width=320 height=200
+          alt="Couldnt load image"> </a> </li>
+          <li> <a href="https://www.imdb.com/title/tt2380307/" target="_blank" > <img src="images/coco.jpg" width=320 height=200
+            alt="Couldnt load image"> </a> </li>
+            <li> <a href="https://www.imdb.com/title/tt1130884/" target="_blank" > <img src="images/shutterisland.jpg" width=320 height=200
+                alt="Couldnt load image"> </a> </li>
+    
+    
+</ul>
+</div>
+
+</div>
+
+    
+    
+    </section>
+
+    <section id="app">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="comment">
+            <p v-for="items in item" v-text="items"></p>
+              </div><!--End Comment-->
+              </div><!--End col -->
+              </div><!-- End row -->
+          <div class="row">
+            <div class="col-6">
+          <textarea type="text" class="input" placeholder="Give us your recomendations!" v-model="newItem" @keyup.enter="addItem()"></textarea>
+              <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Your Rec</button>
+            </div><!-- End col -->
+          </div><!--End Row -->
+        </div><!--End Container -->
+      </section><!-- end App -->
+
+<footer>
+    <hr>
+    <h3>Contact Us</h3>
+    <div class="nav0">
+      <ul>
+          <ul>
+              <li id="fb"> <a href="https://m.facebook.com/people/Ayush-Supakar/100009476764921" target="_blank"><img src="images/fbdownload.jpg" width = 140px height= 40px alt="facebook"></a></li>
+              <li id="ig"> <a href="https://www.instagram.com/ayushsupkar18/" target="_blank"><img src="images/instadownload.jpg"  width = 40px height= 40px alt="Instagram"></a> </li>
+              <li id="yt"> <a href="https://www.youtube.com/channel/UCnkkDfUaM4XVpbIhzzhNY_w"target="_blank" ><img src="images/youtube-logo-16x9jpg-1.jpg" width = 140px height= 40px alt="Youtube"></a> </li>
+      
+          </ul>
+      </ul>
+
+    </div>
+</footer>
+    
+</body>
+
+</html>
+    
+    
+    
